@@ -1,0 +1,48 @@
+.parent > div{
+border:solid;
+}
+.parent{
+    display: grid;
+     /* defining how many columns there will be */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* define how many rows there will be */
+    grid-template-rows: 150px 75px;
+    grid-template-areas:
+    /* name our template section */
+    "box1 box2 box3 box4 box5"
+    "box6 box7 box8 box9 box10";
+    grid-gap: 10px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.box1 {
+    grid-area: box1;
+}
+.box2 {
+    grid-area: box2;
+}
+.box3 {
+    grid-area: box3;
+}
+.box4 {
+    grid-area: box4;
+}
+.box5 {
+    grid-area: box5;
+}
+.box6 {
+    grid-area: box6;
+}
+.box7{
+    grid-area: box7;
+}
+.box8{
+    grid-area: box8;
+}
+.box9{
+    grid-area: box9
+}
+.box10{
+    grid-area: box10
+}
