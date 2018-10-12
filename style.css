@@ -6,11 +6,12 @@ border:solid;
      /* defining how many columns there will be */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     /* define how many rows there will be */
-    grid-template-rows: 150px 75px;
+    grid-template-rows: 150px 75px 75px;
     grid-template-areas:
     /* name our template section */
     "box1 box2 box3 box4 box5"
-    "box6 box7 box8 box9 box10";
+    "box6 box7 box8 box9 box10"
+    "box11 box12 box13 box14 box15";
     grid-gap: 10px;
     padding-top: 50px;
     padding-right: 10px;
@@ -41,8 +42,23 @@ border:solid;
     grid-area: box8;
 }
 .box9{
-    grid-area: box9
+    grid-area: box9;
 }
 .box10{
-    grid-area: box10
+    grid-area: box10;
+}
+.box11 {
+    grid-area: box11;
+}
+.box12 {
+    grid-area: box12;
+}
+.box13{
+    grid-area: box13;
+}
+.box14 {
+    grid-area: box14;
+}
+.box15 {
+    grid-area: box15;
 }
