@@ -1,64 +1,155 @@
-.parent > div{
-border:solid;
+.parent>div {
+    border: solid;
 }
-.parent{
+
+.parent {
     display: grid;
-     /* defining how many columns there will be */
+    /* defining how many columns there will be */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     /* define how many rows there will be */
-    grid-template-rows: 150px 75px 75px;
+    grid-template-rows: 100px 75px 75px 75px 75px 75px;
     grid-template-areas:
-    /* name our template section */
-    "box1 box2 box3 box4 box5"
-    "box6 box7 box8 box9 box10"
-    "box11 box12 box13 box14 box15";
+        /* name our template section */
+        /* "startButton startButton header header header"
+        "subheader subheader subheader subheader subheader" */
+        "box1 box2 box3 box4 box5"
+        "box6 box7 box8 box9 box10"
+        "box11 box12 box13 box14 box15"
+        "box16 box17 box18 box19 box20"
+        "box21 box22 box23 box24 box25"
+        "box26 box27 box28 box29 box30";
     grid-gap: 10px;
     padding-top: 50px;
     padding-right: 10px;
     padding-left: 10px;
 }
+
+.header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
+
 .box1 {
     grid-area: box1;
 }
+
 .box2 {
     grid-area: box2;
 }
+
 .box3 {
     grid-area: box3;
 }
+
 .box4 {
     grid-area: box4;
 }
+
 .box5 {
     grid-area: box5;
 }
+
 .box6 {
     grid-area: box6;
 }
-.box7{
+
+.box7 {
     grid-area: box7;
 }
-.box8{
+
+.box8 {
     grid-area: box8;
 }
-.box9{
+
+.box9 {
     grid-area: box9;
 }
-.box10{
+
+.box10 {
     grid-area: box10;
 }
+
 .box11 {
     grid-area: box11;
 }
+
 .box12 {
     grid-area: box12;
 }
-.box13{
+
+.box13 {
     grid-area: box13;
 }
+
 .box14 {
     grid-area: box14;
 }
+
 .box15 {
     grid-area: box15;
+}
+
+.box16 {
+    grid-area: box16;
+}
+
+.box17 {
+    grid-area: box17;
+}
+
+.box18 {
+    grid-area: box18;
+}
+
+.box19 {
+    grid-area: box19;
+}
+
+.box20 {
+    grid-area: box20;
+}
+
+.box21 {
+    grid-area: box21;
+}
+
+.box22 {
+    grid-area: box22;
+}
+
+.box23 {
+    grid-area: box23;
+}
+
+.box24 {
+    grid-area: box24;
+}
+
+.box25 {
+    grid-area: box25;
+}
+
+.box26 {
+    grid-area: box26;
+}
+
+.box27 {
+    grid-area: box27;
+}
+
+.box28 {
+    grid-area: box28;
+}
+
+.box29 {
+    grid-area: box29;
+}
+
+.box30 {
+    grid-area: box30;
 }
