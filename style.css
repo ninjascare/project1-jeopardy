@@ -1,5 +1,14 @@
+body {
+    background: aqua
+}
+
+
+
+
+
 .parent>div {
     border: solid;
+    background: lightcoral;
 }
 
 .parent {
@@ -9,9 +18,6 @@
     /* define how many rows there will be */
     grid-template-rows: 100px 75px 75px 75px 75px 75px;
     grid-template-areas:
-        /* name our template section */
-        /* "startButton startButton header header header"
-        "subheader subheader subheader subheader subheader" */
         "box1 box2 box3 box4 box5"
         "box6 box7 box8 box9 box10"
         "box11 box12 box13 box14 box15"
@@ -35,23 +41,44 @@
 }
 
 .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: box1;
+    text-align: center;
 }
 
 .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: box2;
+    text-align: center;
 }
 
 .box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: box3;
+    text-align: center;
 }
 
 .box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: box4;
+    text-align: center;
 }
 
-.box5 {
+.box5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: box5;
+    text-align: center;
+    
 }
 
 .box6 {
