@@ -36,7 +36,6 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
     text-align: center;
 }
 
@@ -72,13 +71,13 @@ body {
     text-align: center;
 }
 
-.box5{
+.box5 {
     display: flex;
     align-items: center;
     justify-content: center;
     grid-area: box5;
     text-align: center;
-    
+
 }
 
 .box6 {
