@@ -79,6 +79,18 @@ let points = 0;
 aOne.addEventListener("click", function() {
   points += 100;
   scoreBoard.innerHTML = points;
-  console.log(points)
-  
+  document.getElementById('box6').style.visibility = "hidden"
 });
+
+aTwo.addEventListener("click", function() {
+    points -= 100;
+    scoreBoard.innerHTML = points;
+    document.getElementById('box6').style.visibility = "hidden"
+  });
+
+  aThree.addEventListener("click", function() {
+    points -= 100;
+    scoreBoard.innerHTML = points;
+    document.getElementById('box6').style.visibility = "hidden"
+  });
+  
