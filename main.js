@@ -25,4 +25,5 @@ const twentyFour = document.getElementById('twentyFour')
 const twentyFive = document.getElementById('twentyFive')
 const scoreBoard = document.getElementsByClassName('scoreBoard')
 const points = 0
+ 
 
