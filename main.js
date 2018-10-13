@@ -15,7 +15,7 @@ let aFourteen = document.getElementById("fourteen");
 let aFifthteen = document.getElementById("fifthteen");
 let aSixteen = document.getElementById("sixteen");
 let aSeventeen = document.getElementById("seventeen");
-let aEighteen = document.getElementById("eightteen");
+let aEighteen = document.getElementById("eighteen");
 let aNineteen = document.getElementById("nineteen");
 let aTwenty = document.getElementById("twenty");
 let aTwentyOne = document.getElementById("twentyOne");
@@ -346,4 +346,3 @@ aTwentySix.addEventListener("click", function() {
     document.getElementById("box14").style.visibility = "hidden";
   });
 
-  
