@@ -51,10 +51,10 @@ let aFifthy = document.getElementById("fifthy");
 let aFifthyOne = document.getElementById("fifthyOne");
 let aFifthyTwo = document.getElementById("fifthyTwo");
 let aFifthyThree = document.getElementById("fifthyThree");
-let aFifthyFour = document.getElementById("fiftyFour");
+let aFifthyFour = document.getElementById("fifthyFour");
 let aFifthyFive = document.getElementById("fifthyFive");
 let aFifthySix = document.getElementById("fifthySix");
-let aFifthySeven = document.getElementById("fithySeven");
+let aFifthySeven = document.getElementById("fifthySeven");
 let aFifthyEight = document.getElementById("fifthyEight");
 let aFifthyNine = document.getElementById("fifthyNine");
 let aSixty = document.getElementById("sixty");
@@ -68,7 +68,7 @@ let aSixtySeven = document.getElementById("sixtySeven");
 let aSixtyEight = document.getElementById("sixtyEight");
 let aSixtyNine = document.getElementById("sixtyNine");
 let aSeventy = document.getElementById("seventy");
-let aSeventyOne = document.getElementById("sevntyOne");
+let aSeventyOne = document.getElementById("seventyOne");
 let aSeventyTwo = document.getElementById("seventyTwo");
 let aSeventyThree = document.getElementById("seventyThree");
 let aSeventyFour = document.getElementById("seventyFour");
@@ -795,4 +795,32 @@ aTwentySix.addEventListener("click", function() {
     document.getElementById("box29").style.visibility = "hidden";
   });
 
-  
+  aSeventyThree.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box30").style.visibility = "hidden";
+  });
+
+  aSeventyFour.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box30").style.visibility = "hidden";
+  });
+
+  aSeventyFive.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box30").style.visibility = "hidden";
+  });
