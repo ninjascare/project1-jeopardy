@@ -685,3 +685,114 @@ aTwentySix.addEventListener("click", function() {
     scoreBoard.innerHTML = points;
     document.getElementById("box26").style.visibility = "hidden";
   });
+
+  aSixtyTwo.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box26").style.visibility = "hidden";
+  });
+
+  aSixtyThree.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box26").style.visibility = "hidden";
+  });
+  aSixtyFour.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box27").style.visibility = "hidden";
+  });
+
+  aSixtyFive.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box27").style.visibility = "hidden";
+  });
+
+  aSixtySix.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box27").style.visibility = "hidden";
+  });
+
+  aSixtySeven.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box28").style.visibility = "hidden";
+  });
+
+  aSixtyEight.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box28").style.visibility = "hidden";
+  });
+
+  aSixtyNine.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box28").style.visibility = "hidden";
+  });
+
+  aSeventy.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box29").style.visibility = "hidden";
+  });
+
+  aSeventyOne.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box29").style.visibility = "hidden";
+  });
+
+  aSeventyTwo.addEventListener("click", function() {
+    points += 100;
+    if (points > 150) {
+      swal("Good Job!!!", "You Won!", "success");
+    } else {
+    }
+    scoreBoard.innerHTML = points;
+    document.getElementById("box29").style.visibility = "hidden";
+  });
+
+  
