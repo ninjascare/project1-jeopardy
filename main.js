@@ -10,7 +10,7 @@ let aNine = document.getElementById("nine");
 let aTen = document.getElementById("ten");
 let aEleven = document.getElementById("eleven");
 let aTwelve = document.getElementById("twelve");
-let aThirteen = document.getElementById("thrithteen");
+let aThirteen = document.getElementById("thirthteen");
 let aFourteen = document.getElementById("fourteen");
 let aFifthteen = document.getElementById("fifthteen");
 let aSixteen = document.getElementById("sixteen");
@@ -78,19 +78,162 @@ let points = 0;
 
 aOne.addEventListener("click", function() {
   points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+
   scoreBoard.innerHTML = points;
-  document.getElementById('box6').style.visibility = "hidden"
+  document.getElementById("box6").style.visibility = "hidden";
 });
 
 aTwo.addEventListener("click", function() {
-    points -= 100;
-    scoreBoard.innerHTML = points;
-    document.getElementById('box6').style.visibility = "hidden"
-  });
+  points -= 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box6").style.visibility = "hidden";
+});
 
-  aThree.addEventListener("click", function() {
-    points -= 100;
+aThree.addEventListener("click", function() {
+  points -= 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box6").style.visibility = "hidden";
+});
+
+aFour.addEventListener("click", function() {
+  points -= 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box7").style.visibility = "hidden";
+});
+
+aFive.addEventListener("click", function() {
+  points -= 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box7").style.visibility = "hidden";
+});
+
+aSix.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box7").style.visibility = "hidden";
+});
+
+aSeven.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box8").style.visibility = "hidden";
+});
+
+aEight.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box8").style.visibility = "hidden";
+});
+
+aNine.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box8").style.visibility = "hidden";
+});
+
+aTen.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box9").style.visibility = "hidden";
+});
+
+aEleven.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box9").style.visibility = "hidden";
+});
+
+aTwelve.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box9").style.visibility = "hidden";
+});
+
+aThirteen.addEventListener("click", function() {
+    points += 100;
+    if(points > 150){
+        swal('Good Job!!!', 'You Won!', 'success')
+      }else{
+      }
     scoreBoard.innerHTML = points;
-    document.getElementById('box6').style.visibility = "hidden"
+    document.getElementById('box10').style.visibility = "hidden"
   });
   
+
+aFourteen.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box10").style.visibility = "hidden";
+});
+
+aFifthteen.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box10").style.visibility = "hidden";
+});
+
+aSixteen.addEventListener("click", function() {
+  points += 100;
+  if (points > 150) {
+    swal("Good Job!!!", "You Won!", "success");
+  } else {
+  }
+  scoreBoard.innerHTML = points;
+  document.getElementById("box11").style.visibility = "hidden";
+});
