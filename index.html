@@ -14,7 +14,7 @@
         crossorigin="anonymous"></script>
     <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-        <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel='stylesheet' href='style.css'>
     <title>Project1: jeopardy</title>
 </head>
@@ -24,88 +24,90 @@
         <div class='header'>
             <h1>Jeopardy Game</h1>
             <h3>Created By Kevin Rosales</h3>
-            <button class="btn btn-success " data-toggle="collapse" data-target=".parent"  id='startButton'>Start Player 1</button>
+            <button class="btn btn-success " data-toggle="collapse" data-target=".parent" id='startButton'>
+                Start Player 1
+            </button>
             <div class='scoreBoard'>0</div>
         </div>
         <div class='parent'>
-            <div class="box1"> Category 1 </div>
-            <div class="box2"> Category 2</div>
-            <div class="box3"> Category 3 </div>
-            <div class="box4"> Category 4</div>
-            <div class="box5"> Category 5</div>
-            <button  id ='box6' class="btn btn-primary"  data-toggle="modal" data-target="#firstModal">
+            <div class="box1"> History </div>
+            <div class="box2"> Sports </div>
+            <div class="box3"> Films </div>
+            <div class="box4"> Music </div>
+            <div class="box5"> Video Games </div>
+            <button id='box6' class="btn btn-primary" data-toggle="modal" data-target="#firstModal">
                 $100
             </button>
-            <button id='box7' class="btn btn-primary"  data-toggle="modal" data-target="#secondModal">
+            <button id='box7' class="btn btn-primary" data-toggle="modal" data-target="#secondModal">
                 $100
             </button>
-            <button id='box8' class="btn btn-primary"  data-toggle="modal" data-target="#threeModal">
+            <button id='box8' class="btn btn-primary" data-toggle="modal" data-target="#threeModal">
                 $100
             </button>
-            <button id='box9' class="btn btn-primary"   data-toggle="modal" data-target="#fourthModal">
+            <button id='box9' class="btn btn-primary" data-toggle="modal" data-target="#fourthModal">
                 $100
             </button>
-            <button id='box10' class="btn btn-primary"   data-toggle="modal" data-target="#fifthModal">
+            <button id='box10' class="btn btn-primary" data-toggle="modal" data-target="#fifthModal">
                 $100
             </button>
-            <button id='box11' class="btn btn-primary"  data-toggle="modal" data-target="#sixModal">
+            <button id='box11' class="btn btn-primary" data-toggle="modal" data-target="#sixModal">
                 $200
             </button>
-            <button id='box12'  class="btn btn-primary"  data-toggle="modal" data-target="#sevenModal">
+            <button id='box12' class="btn btn-primary" data-toggle="modal" data-target="#sevenModal">
                 $200
             </button>
-            <button id='box13' class="btn btn-primary"   data-toggle="modal" data-target="#eightModal">
+            <button id='box13' class="btn btn-primary" data-toggle="modal" data-target="#eightModal">
                 $200
             </button>
-            <button id='box14' class="btn btn-primary"   data-toggle="modal" data-target="#nineModal">
+            <button id='box14' class="btn btn-primary" data-toggle="modal" data-target="#nineModal">
                 $200
             </button>
-            <button id='box15' class="btn btn-primary"  data-toggle="modal" data-target="#tenModal">
+            <button id='box15' class="btn btn-primary" data-toggle="modal" data-target="#tenModal">
                 $200
             </button>
-            <button id='box16' class="btn btn-primary"   data-toggle="modal" data-target="#elevenModal">
+            <button id='box16' class="btn btn-primary" data-toggle="modal" data-target="#elevenModal">
                 $300
             </button>
-            <button id='box17' class="btn btn-primary"  data-toggle="modal" data-target="#twelveModal">
+            <button id='box17' class="btn btn-primary" data-toggle="modal" data-target="#twelveModal">
                 $300
             </button>
-            <button id='box18' class="btn btn-primary"   data-toggle="modal" data-target="#thirthteenModal">
+            <button id='box18' class="btn btn-primary" data-toggle="modal" data-target="#thirthteenModal">
                 $300
             </button>
-            <button id='box19' class="btn btn-primary"   data-toggle="modal" data-target="#fourteenModal">
+            <button id='box19' class="btn btn-primary" data-toggle="modal" data-target="#fourteenModal">
                 $300
             </button>
-            <button id='box20' class="btn btn-primary"   data-toggle="modal" data-target="#fifthteenModal">
+            <button id='box20' class="btn btn-primary" data-toggle="modal" data-target="#fifthteenModal">
                 $300
             </button>
-            <button id='box21' class="btn btn-primary"  data-toggle="modal" data-target="#sixteenModal">
+            <button id='box21' class="btn btn-primary" data-toggle="modal" data-target="#sixteenModal">
                 $400
             </button>
-            <button id='box22' class="btn btn-primary"   data-toggle="modal" data-target="#seventeenModal">
+            <button id='box22' class="btn btn-primary" data-toggle="modal" data-target="#seventeenModal">
                 $400
             </button>
-            <button id='box23' class="btn btn-primary"  data-toggle="modal" data-target="#eighteenModal">
+            <button id='box23' class="btn btn-primary" data-toggle="modal" data-target="#eighteenModal">
                 $400
             </button>
-            <button id='box24' class="btn btn-primary"   data-toggle="modal" data-target="#nineteenModal">
+            <button id='box24' class="btn btn-primary" data-toggle="modal" data-target="#nineteenModal">
                 $400
             </button>
-            <button id='box25' class="btn btn-primary"   data-toggle="modal" data-target="#twentyModal">
+            <button id='box25' class="btn btn-primary" data-toggle="modal" data-target="#twentyModal">
                 $400
             </button>
-            <button id='box26' class="btn btn-primary"   data-toggle="modal" data-target="#twentyoneModal">
+            <button id='box26' class="btn btn-primary" data-toggle="modal" data-target="#twentyoneModal">
                 $500
             </button>
-            <button id='box27' class="btn btn-primary"   data-toggle="modal" data-target="#twentytwoModal">
+            <button id='box27' class="btn btn-primary" data-toggle="modal" data-target="#twentytwoModal">
                 $500
             </button>
-            <button id='box28' class="btn btn-primary"   data-toggle="modal" data-target="#twentythreeModal">
+            <button id='box28' class="btn btn-primary" data-toggle="modal" data-target="#twentythreeModal">
                 $500
             </button>
-            <button id='box29' class="btn btn-primary"  data-toggle="modal" data-target="#twentyfourModal">
+            <button id='box29' class="btn btn-primary" data-toggle="modal" data-target="#twentyfourModal">
                 $500
             </button>
-            <button id='box30' class="btn btn-primary"   data-toggle="modal" data-target="#twentyfiveModal">
+            <button id='box30' class="btn btn-primary" data-toggle="modal" data-target="#twentyfiveModal">
                 $500
             </button>
         </div>
@@ -116,7 +118,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="firstModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -124,9 +126,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='one' data-dismiss="modal" class="btn btn-primary" >firstModal</button>
+                        <button type="button" id='one' data-dismiss="modal" class="btn btn-primary">firstModal</button>
                         <button type="button" id='two' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='three' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='three' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -139,7 +141,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="secondModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -147,9 +149,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='four' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='four' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='five' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='six' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='six' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -161,18 +163,18 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="threeModal">who is the main charcter of dbz</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <h5 class="modal-title" id="threeModal">Question for 100 dollars</h5>
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                            What is the film that was about a shark
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='seven' data-dismiss="modal" class="btn btn-primary" >vegeta</button>
-                        <button type="button" id='eight' data-dismiss="modal" class="btn btn-primary">goku</button>
-                        <button type="button" id='nine' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='seven' data-dismiss="modal" class="btn btn-primary">Mission Impossible</button>
+                        <button type="button" id='eight' data-dismiss="modal" class="btn btn-primary">Jaws</button>
+                        <button type="button" id='nine' data-dismiss="modal" class="btn btn-primary">scooby-doo</button>
 
                     </div>
                 </div>
@@ -185,7 +187,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="fourthModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -193,9 +195,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='ten' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='ten' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='eleven' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='twelve' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='twelve' data-dismiss="modal" class="btn btn-primary">Close</button>
 
                     </div>
                 </div>
@@ -208,7 +210,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="fifthModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -216,9 +218,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='thirthteen' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='thirthteen' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='fourteen' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='fifthteen' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='fifthteen' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -231,7 +233,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="sixModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -239,9 +241,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='sixteen' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='sixteen' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='seventeen' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='eighteen' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='eighteen' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -254,7 +256,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="sevenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -262,9 +264,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='nineteen' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='nineteen' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='twenty' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='twentyOne' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='twentyOne' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -277,7 +279,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="eightModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -285,9 +287,10 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='twentyTwo' data-dismiss="modal" class="btn btn-primary" >Close</button>
-                        <button type="button" id='twentyThree' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='twentyFour' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='twentyTwo' data-dismiss="modal" class="btn btn-primary">Close</button>
+                        <button type="button" id='twentyThree' data-dismiss="modal" class="btn btn-primary">Save
+                            changes</button>
+                        <button type="button" id='twentyFour' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -300,7 +303,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="nineModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -308,9 +311,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='twentyFive' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='twentyFive' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='twentySix' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='twentySeven' data-dismiss="modal" class="btn btn-primary"  >Close</button>
+                        <button type="button" id='twentySeven' data-dismiss="modal" class="btn btn-primary">Close</button>
 
                     </div>
                 </div>
@@ -323,7 +326,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="tenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -331,9 +334,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='twentyEight' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='twentyEight' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='twentyNine' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='thirty' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='thirty' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -346,7 +349,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="elevenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -354,9 +357,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='thirtyOne' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='thirtyOne' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='thirtyTwo' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='thirtyThree' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='thirtyThree' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -369,7 +372,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="twelveModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -377,9 +380,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='thirtyFour' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='thirtyFour' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='thirtyFive' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='thirtySix' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='thirtySix' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -392,7 +395,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="thirthteenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -400,9 +403,10 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='thirtySeven' data-dismiss="modal" class="btn btn-primary" >Close</button>
-                        <button type="button" id='thirtyEight' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='thirtyNine' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='thirtySeven' data-dismiss="modal" class="btn btn-primary">Close</button>
+                        <button type="button" id='thirtyEight' data-dismiss="modal" class="btn btn-primary">Save
+                            changes</button>
+                        <button type="button" id='thirtyNine' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -415,7 +419,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="fourteenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -423,9 +427,10 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='fourty' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='fourty' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='fourtyOne' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='fourtyTwo' data-dismiss="modal" cdata-dismiss="modal" lass="btn btn-primary"  a>Close</button>
+                        <button type="button" id='fourtyTwo' data-dismiss="modal" cdata-dismiss="modal" lass="btn btn-primary"
+                            a>Close</button>
 
                     </div>
                 </div>
@@ -438,7 +443,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="fifthteenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -446,9 +451,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='fourtyThree' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='fourtyThree' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='fourtyFour' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='fourtyFive' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='fourtyFive' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -461,7 +466,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="sixteenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -469,9 +474,10 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='fourtySix' data-dismiss="modal" class="btn btn-primary" >Close</button>
-                        <button type="button" id='fourtySeven' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='fourtyEight' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='fourtySix' data-dismiss="modal" class="btn btn-primary">Close</button>
+                        <button type="button" id='fourtySeven' data-dismiss="modal" class="btn btn-primary">Save
+                            changes</button>
+                        <button type="button" id='fourtyEight' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -484,7 +490,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="seventeenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -492,9 +498,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='fourtyNine' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='fourtyNine' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='fifthy' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='fifthyOne' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='fifthyOne' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -507,7 +513,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="eighteenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -515,9 +521,10 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='fifthyTwo' data-dismiss="modal" class="btn btn-primary" >Close</button>
-                        <button type="button" id='fifthyThree' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='fifthyFour' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='fifthyTwo' data-dismiss="modal" class="btn btn-primary">Close</button>
+                        <button type="button" id='fifthyThree' data-dismiss="modal" class="btn btn-primary">Save
+                            changes</button>
+                        <button type="button" id='fifthyFour' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -530,7 +537,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="nineteenModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -538,9 +545,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='fifthyFive' data-dismiss="modal" class="btn btn-primary" >Close</button>
-                        <button type="button" id ='fifthySix' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id ='fifthySeven' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='fifthyFive' data-dismiss="modal" class="btn btn-primary">Close</button>
+                        <button type="button" id='fifthySix' data-dismiss="modal" class="btn btn-primary">Save changes</button>
+                        <button type="button" id='fifthySeven' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -553,7 +560,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="twentyModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -561,9 +568,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='fifthyEight' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='fifthyEight' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='fifthyNine' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='sixty' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='sixty' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -576,7 +583,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="twentyoneModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -584,9 +591,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='sixtyOne' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='sixtyOne' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='sixtyTwo' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='sixtyThree' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='sixtyThree' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -599,7 +606,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="twentytwoModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -607,9 +614,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='sixtyFour' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='sixtyFour' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='sixtyFive' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='sixtySix' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='sixtySix' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -622,7 +629,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="firstModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -630,9 +637,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='sixtySeven' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='sixtySeven' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='sixtyEight' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='sixtyNine' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='sixtyNine' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -645,7 +652,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="firstModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -653,9 +660,9 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='seventy' data-dismiss="modal" class="btn btn-primary" >Close</button>
+                        <button type="button" id='seventy' data-dismiss="modal" class="btn btn-primary">Close</button>
                         <button type="button" id='seventyOne' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='seventyTwo' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='seventyTwo' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
@@ -668,7 +675,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="firstModal">Modal title</h5>
-                        <button type="button" class="close"  aria-label="Close">
+                        <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -676,9 +683,10 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        <button type="button" id='seventyThree' data-dismiss="modal" class="btn btn-primary" >Close</button>
-                        <button type="button" id='seventyFour' data-dismiss="modal" class="btn btn-primary">Save changes</button>
-                        <button type="button" id='seventyFive' data-dismiss="modal" class="btn btn-primary"  a>Close</button>
+                        <button type="button" id='seventyThree' data-dismiss="modal" class="btn btn-primary">Close</button>
+                        <button type="button" id='seventyFour' data-dismiss="modal" class="btn btn-primary">Save
+                            changes</button>
+                        <button type="button" id='seventyFive' data-dismiss="modal" class="btn btn-primary" a>Close</button>
 
                     </div>
                 </div>
