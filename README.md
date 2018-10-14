@@ -8,7 +8,12 @@
 
 
 ## Technolgies Used:
-1. **Languages**-*Html5,CSS3, Javascript*
+1. **Languages** - *Html5,CSS3, Javascript*
 2. **Design** - *SweetAlert*
 3. **Project Planning and User Stories** - [Trello]()
 4. **Visual Studio Code**
+
+## Wireframe:
+**You can find my wireframe for the game in** [Figma]()
+
+
