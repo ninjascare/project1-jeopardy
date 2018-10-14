@@ -901,6 +901,3 @@ aSeventyFive.addEventListener("click", function() {
   document.getElementById("box30").style.visibility = "hidden";
 });
 
-function clearBoard(){
-  if ()
-}
