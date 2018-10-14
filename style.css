@@ -57,6 +57,7 @@ img {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   box-shadow: inset 0px 0px 0px 12px white;
+  
 }
 #box7:hover {
   background-color: red;
@@ -232,8 +233,14 @@ img {
   justify-content: center;
   grid-area: box1;
   text-align: center;
+ 
 }
-
+.modal-footer{
+   display: flex;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+}
 .box2 {
   display: flex;
   align-items: center;
