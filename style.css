@@ -1,184 +1,251 @@
 body {
-    background: aqua
+  background: aqua;
 }
 
-
-
-
-
-.parent>div {
-    border: solid;
-    background: lightcoral;
+.parent > div {
+  border: solid;
+  background: lightcoral;
 }
 
 .parent {
-    display: grid;
-    /* defining how many columns there will be */
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* define how many rows there will be */
-    grid-template-rows: 100px 75px 75px 75px 75px 75px;
-    grid-template-areas:
-        "box1 box2 box3 box4 box5"
-        "box6 box7 box8 box9 box10"
-        "box11 box12 box13 box14 box15"
-        "box16 box17 box18 box19 box20"
-        "box21 box22 box23 box24 box25"
-        "box26 box27 box28 box29 box30";
-    grid-gap: 10px;
-    padding-top: 50px;
-    padding-right: 10px;
-    padding-left: 10px;
+  display: grid;
+  /* defining how many columns there will be */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* define how many rows there will be */
+  grid-template-rows: 100px 75px 75px 75px 75px 75px;
+  grid-template-areas:
+    "box1 box2 box3 box4 box5"
+    "box6 box7 box8 box9 box10"
+    "box11 box12 box13 box14 box15"
+    "box16 box17 box18 box19 box20"
+    "box21 box22 box23 box24 box25"
+    "box26 box27 box28 box29 box30";
+  grid-gap: 10px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .header {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
+#box6:hover {
+  background-color: red;
+}
+#box7:hover {
+  background-color: red;
+}
+#box8:hover {
+  background-color: red;
+}
+#box9:hover {
+  background-color: red;
+}
+#box10:hover {
+  background-color: red;
+}
+#box11:hover {
+  background-color: red;
+}
+#box12:hover {
+  background-color: red;
+}
+#box13:hover {
+  background-color: red;
+}
+#box14:hover {
+  background-color: red;
+}
+#box15:hover {
+  background-color: red;
+}
+#box16:hover {
+  background-color: red;
+}
+#box17:hover {
+  background-color: red;
+}
+#box18:hover {
+  background-color: red;
+}
+#box19:hover {
+  background-color: red;
+}
+#box20:hover {
+  background-color: red;
+}
+#box21:hover {
+  background-color: red;
+}
+#box22:hover {
+  background-color: red;
+}
+#box23:hover {
+  background-color: red;
+}
+#box24:hover {
+  background-color: red;
+}
+#box25:hover {
+  background-color: red;
+}
+#box26:hover {
+  background-color: red;
+}
+#box27:hover {
+  background-color: red;
+}
+#box28:hover {
+  background-color: red;
+}
+#box29:hover {
+  background-color: red;
+}
+#box30:hover {
+  background-color: red;
+}
 .box1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-area: box1;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: box1;
+  text-align: center;
 }
 
 .box2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-area: box2;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: box2;
+  text-align: center;
 }
 
 .box3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-area: box3;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: box3;
+  text-align: center;
 }
 
 .box4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-area: box4;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: box4;
+  text-align: center;
 }
 
 .box5 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-area: box5;
-    text-align: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: box5;
+  text-align: center;
 }
 
-
-
 .box6 {
-    grid-area: box6;
-
+  grid-area: box6;
 }
 
 .box7 {
-    grid-area: box7;
+  grid-area: box7;
 }
 
 .box8 {
-    grid-area: box8;
+  grid-area: box8;
 }
 
 .box9 {
-    grid-area: box9;
+  grid-area: box9;
 }
 
 .box10 {
-    grid-area: box10;
+  grid-area: box10;
 }
 
 .box11 {
-    grid-area: box11;
+  grid-area: box11;
 }
 
 .box12 {
-    grid-area: box12;
+  grid-area: box12;
 }
 
 .box13 {
-    grid-area: box13;
+  grid-area: box13;
 }
 
 .box14 {
-    grid-area: box14;
+  grid-area: box14;
 }
 
 .box15 {
-    grid-area: box15;
+  grid-area: box15;
 }
 
 .box16 {
-    grid-area: box16;
+  grid-area: box16;
 }
 
 .box17 {
-    grid-area: box17;
+  grid-area: box17;
 }
 
 .box18 {
-    grid-area: box18;
+  grid-area: box18;
 }
 
 .box19 {
-    grid-area: box19;
+  grid-area: box19;
 }
 
 .box20 {
-    grid-area: box20;
+  grid-area: box20;
 }
 
 .box21 {
-    grid-area: box21;
+  grid-area: box21;
 }
 
 .box22 {
-    grid-area: box22;
+  grid-area: box22;
 }
 
 .box23 {
-    grid-area: box23;
+  grid-area: box23;
 }
 
 .box24 {
-    grid-area: box24;
+  grid-area: box24;
 }
 
 .box25 {
-    grid-area: box25;
+  grid-area: box25;
 }
 
 .box26 {
-    grid-area: box26;
+  grid-area: box26;
 }
 
 .box27 {
-    grid-area: box27;
+  grid-area: box27;
 }
 
 .box28 {
-    grid-area: box28;
+  grid-area: box28;
 }
 
 .box29 {
-    grid-area: box29;
+  grid-area: box29;
 }
 
 .box30 {
-    grid-area: box30;
+  grid-area: box30;
 }

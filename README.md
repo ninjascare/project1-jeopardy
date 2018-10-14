@@ -18,4 +18,4 @@
 
 ## Future Development:
 1. Add an AI like (player vs. computer)
-2. Make it to where you can change the themes of the jeopardy board and catagories.
+2. Make it to where you can change the themes of the jeopardy board and catagories.x
