@@ -16,6 +16,6 @@
 ## Wireframe:
 **You can find my wireframe for the game in** [Figma]()
 
-##Future Development:
+## Future Development:
 1. Add an AI like (player vs. computer)
 2. Make it to where you can change the themes of the jeopardy board and catagories.
