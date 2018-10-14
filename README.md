@@ -9,7 +9,7 @@
 
 ## Technolgies Used:
 1. **Languages** - *Html5,CSS3, Javascript*
-2. **Design** - *SweetAlert*
+2. **Design** - *SweetAlert*, *BootStrap*
 3. **Project Planning and User Stories** - [Trello]()
 4. **Visual Studio Code**
 
