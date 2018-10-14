@@ -25,7 +25,19 @@ body {
   padding-right: 10px;
   padding-left: 10px;
 }
+.scoreBoard{
+    font-size: 30px;
+    border: solid green 5px;
+    border-radius: 12px;
+    border-style: inset;
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    display: inline-block;
 
+}
 .header {
   display: flex;
   align-content: center;
