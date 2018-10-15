@@ -6,7 +6,7 @@ For Project 1, I created a Jeopardy game that involves catagories about **histor
 
 **Live Site:** [Jeopardy Game in Netlify](https://app.netlify.com/)
 
-## Technolgies Used:
+## Technologies Used:
 
 1. **Languages** - _Html5,CSS3, Javascript_
 2. **Design** - _SweetAlert_, _BootStrap_
