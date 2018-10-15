@@ -83,7 +83,7 @@ aOne.addEventListener("click", function() {
   } else if (points <= -500) {
     swal("Too Bad!", "You lost", "error");
   }
-  
+
   scoreBoard.innerHTML = points;
   document.getElementById("box6").style.visibility = "hidden";
 });
@@ -900,4 +900,3 @@ aSeventyFive.addEventListener("click", function() {
   scoreBoard.innerHTML = points;
   document.getElementById("box30").style.visibility = "hidden";
 });
-
