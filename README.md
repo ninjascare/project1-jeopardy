@@ -21,3 +21,4 @@ For Project 1, I created a Jeopardy game that involves catagories about **histor
 
 1. Add an AI like (player vs. computer)
 2. Make it to where you can change the themes of the jeopardy board and catagories.x
+3. Find a way to dry up my code by maybe using an object and constructor to make questions and answers. And then create button element for me to append my objects into the buttons.
