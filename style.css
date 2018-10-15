@@ -2,7 +2,10 @@ body {
   background-color: #004a4f;
   background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
 }
-
+p {
+  border: solid black;
+  background: white;
+}
 .parent > div {
   border: solid;
   background: lightcoral;

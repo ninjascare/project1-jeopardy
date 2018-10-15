@@ -74,9 +74,9 @@ let aSeventyThree = document.getElementById("seventyThree");
 let aSeventyFour = document.getElementById("seventyFour");
 let aSeventyFive = document.getElementById("seventyFive");
 let scoreBoard = document.querySelector(".scoreBoard");
+let info = document.getElementById('instructions')
 let points = 0;
-
-aOne.addEventListener("click", function() {
+aOne.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -88,7 +88,7 @@ aOne.addEventListener("click", function() {
   document.getElementById("box6").style.visibility = "hidden";
 });
 
-aTwo.addEventListener("click", function() {
+aTwo.addEventListener("click", function () {
   points += 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -99,7 +99,7 @@ aTwo.addEventListener("click", function() {
   document.getElementById("box6").style.visibility = "hidden";
 });
 
-aThree.addEventListener("click", function() {
+aThree.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -110,7 +110,7 @@ aThree.addEventListener("click", function() {
   document.getElementById("box6").style.visibility = "hidden";
 });
 
-aFour.addEventListener("click", function() {
+aFour.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -121,7 +121,7 @@ aFour.addEventListener("click", function() {
   document.getElementById("box7").style.visibility = "hidden";
 });
 
-aFive.addEventListener("click", function() {
+aFive.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -132,7 +132,7 @@ aFive.addEventListener("click", function() {
   document.getElementById("box7").style.visibility = "hidden";
 });
 
-aSix.addEventListener("click", function() {
+aSix.addEventListener("click", function () {
   points += 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -143,7 +143,7 @@ aSix.addEventListener("click", function() {
   document.getElementById("box7").style.visibility = "hidden";
 });
 
-aSeven.addEventListener("click", function() {
+aSeven.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -154,7 +154,7 @@ aSeven.addEventListener("click", function() {
   document.getElementById("box8").style.visibility = "hidden";
 });
 
-aEight.addEventListener("click", function() {
+aEight.addEventListener("click", function () {
   points += 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -165,7 +165,7 @@ aEight.addEventListener("click", function() {
   document.getElementById("box8").style.visibility = "hidden";
 });
 
-aNine.addEventListener("click", function() {
+aNine.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -176,7 +176,7 @@ aNine.addEventListener("click", function() {
   document.getElementById("box8").style.visibility = "hidden";
 });
 
-aTen.addEventListener("click", function() {
+aTen.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -187,7 +187,7 @@ aTen.addEventListener("click", function() {
   document.getElementById("box9").style.visibility = "hidden";
 });
 
-aEleven.addEventListener("click", function() {
+aEleven.addEventListener("click", function () {
   points += 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -198,7 +198,7 @@ aEleven.addEventListener("click", function() {
   document.getElementById("box9").style.visibility = "hidden";
 });
 
-aTwelve.addEventListener("click", function() {
+aTwelve.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -209,7 +209,7 @@ aTwelve.addEventListener("click", function() {
   document.getElementById("box9").style.visibility = "hidden";
 });
 
-aThirteen.addEventListener("click", function() {
+aThirteen.addEventListener("click", function () {
   points += 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -220,7 +220,7 @@ aThirteen.addEventListener("click", function() {
   document.getElementById("box10").style.visibility = "hidden";
 });
 
-aFourteen.addEventListener("click", function() {
+aFourteen.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -231,7 +231,7 @@ aFourteen.addEventListener("click", function() {
   document.getElementById("box10").style.visibility = "hidden";
 });
 
-aFifthteen.addEventListener("click", function() {
+aFifthteen.addEventListener("click", function () {
   points -= 100;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -242,7 +242,7 @@ aFifthteen.addEventListener("click", function() {
   document.getElementById("box10").style.visibility = "hidden";
 });
 
-aSixteen.addEventListener("click", function() {
+aSixteen.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -253,7 +253,7 @@ aSixteen.addEventListener("click", function() {
   document.getElementById("box11").style.visibility = "hidden";
 });
 
-aSeventeen.addEventListener("click", function() {
+aSeventeen.addEventListener("click", function () {
   points += 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -264,7 +264,7 @@ aSeventeen.addEventListener("click", function() {
   document.getElementById("box11").style.visibility = "hidden";
 });
 
-aEighteen.addEventListener("click", function() {
+aEighteen.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -275,7 +275,7 @@ aEighteen.addEventListener("click", function() {
   document.getElementById("box11").style.visibility = "hidden";
 });
 
-aNineteen.addEventListener("click", function() {
+aNineteen.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -286,7 +286,7 @@ aNineteen.addEventListener("click", function() {
   document.getElementById("box12").style.visibility = "hidden";
 });
 
-aTwenty.addEventListener("click", function() {
+aTwenty.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -297,7 +297,7 @@ aTwenty.addEventListener("click", function() {
   document.getElementById("box12").style.visibility = "hidden";
 });
 
-aTwentyOne.addEventListener("click", function() {
+aTwentyOne.addEventListener("click", function () {
   points += 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -308,7 +308,7 @@ aTwentyOne.addEventListener("click", function() {
   document.getElementById("box12").style.visibility = "hidden";
 });
 
-aTwentyTwo.addEventListener("click", function() {
+aTwentyTwo.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -319,7 +319,7 @@ aTwentyTwo.addEventListener("click", function() {
   document.getElementById("box13").style.visibility = "hidden";
 });
 
-aTwentyThree.addEventListener("click", function() {
+aTwentyThree.addEventListener("click", function () {
   points += 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -330,7 +330,7 @@ aTwentyThree.addEventListener("click", function() {
   document.getElementById("box13").style.visibility = "hidden";
 });
 
-aTwentyFour.addEventListener("click", function() {
+aTwentyFour.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -341,7 +341,7 @@ aTwentyFour.addEventListener("click", function() {
   document.getElementById("box13").style.visibility = "hidden";
 });
 
-aTwentyFive.addEventListener("click", function() {
+aTwentyFive.addEventListener("click", function () {
   points += 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -352,7 +352,7 @@ aTwentyFive.addEventListener("click", function() {
   document.getElementById("box14").style.visibility = "hidden";
 });
 
-aTwentySix.addEventListener("click", function() {
+aTwentySix.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -362,7 +362,7 @@ aTwentySix.addEventListener("click", function() {
   scoreBoard.innerHTML = points;
   document.getElementById("box14").style.visibility = "hidden";
 });
-aTwentySeven.addEventListener("click", function() {
+aTwentySeven.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -373,7 +373,7 @@ aTwentySeven.addEventListener("click", function() {
   document.getElementById("box14").style.visibility = "hidden";
 });
 
-aTwentyEight.addEventListener("click", function() {
+aTwentyEight.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -384,7 +384,7 @@ aTwentyEight.addEventListener("click", function() {
   document.getElementById("box15").style.visibility = "hidden";
 });
 
-aTwentyNine.addEventListener("click", function() {
+aTwentyNine.addEventListener("click", function () {
   points -= 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -395,7 +395,7 @@ aTwentyNine.addEventListener("click", function() {
   document.getElementById("box15").style.visibility = "hidden";
 });
 
-aThirty.addEventListener("click", function() {
+aThirty.addEventListener("click", function () {
   points += 200;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -406,7 +406,7 @@ aThirty.addEventListener("click", function() {
   document.getElementById("box15").style.visibility = "hidden";
 });
 
-aThirtyOne.addEventListener("click", function() {
+aThirtyOne.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -417,7 +417,7 @@ aThirtyOne.addEventListener("click", function() {
   document.getElementById("box16").style.visibility = "hidden";
 });
 
-aThirtyTwo.addEventListener("click", function() {
+aThirtyTwo.addEventListener("click", function () {
   points += 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -428,7 +428,7 @@ aThirtyTwo.addEventListener("click", function() {
   document.getElementById("box16").style.visibility = "hidden";
 });
 
-aThirtyThree.addEventListener("click", function() {
+aThirtyThree.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -439,7 +439,7 @@ aThirtyThree.addEventListener("click", function() {
   document.getElementById("box16").style.visibility = "hidden";
 });
 
-aThirtyFour.addEventListener("click", function() {
+aThirtyFour.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -450,7 +450,7 @@ aThirtyFour.addEventListener("click", function() {
   document.getElementById("box17").style.visibility = "hidden";
 });
 
-aThirtyFive.addEventListener("click", function() {
+aThirtyFive.addEventListener("click", function () {
   points += 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -461,7 +461,7 @@ aThirtyFive.addEventListener("click", function() {
   document.getElementById("box17").style.visibility = "hidden";
 });
 
-aThirtySix.addEventListener("click", function() {
+aThirtySix.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -472,7 +472,7 @@ aThirtySix.addEventListener("click", function() {
   document.getElementById("box17").style.visibility = "hidden";
 });
 
-aThirtySeven.addEventListener("click", function() {
+aThirtySeven.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -483,7 +483,7 @@ aThirtySeven.addEventListener("click", function() {
   document.getElementById("box18").style.visibility = "hidden";
 });
 
-aThirtyEight.addEventListener("click", function() {
+aThirtyEight.addEventListener("click", function () {
   points += 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -494,7 +494,7 @@ aThirtyEight.addEventListener("click", function() {
   document.getElementById("box18").style.visibility = "hidden";
 });
 
-aThirtyNine.addEventListener("click", function() {
+aThirtyNine.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -505,7 +505,7 @@ aThirtyNine.addEventListener("click", function() {
   document.getElementById("box18").style.visibility = "hidden";
 });
 
-aFourty.addEventListener("click", function() {
+aFourty.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -516,7 +516,7 @@ aFourty.addEventListener("click", function() {
   document.getElementById("box19").style.visibility = "hidden";
 });
 
-aFourtyOne.addEventListener("click", function() {
+aFourtyOne.addEventListener("click", function () {
   points += 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -527,7 +527,7 @@ aFourtyOne.addEventListener("click", function() {
   document.getElementById("box19").style.visibility = "hidden";
 });
 
-aFourtyTwo.addEventListener("click", function() {
+aFourtyTwo.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -538,7 +538,7 @@ aFourtyTwo.addEventListener("click", function() {
   document.getElementById("box19").style.visibility = "hidden";
 });
 
-aFourtyThree.addEventListener("click", function() {
+aFourtyThree.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -549,7 +549,7 @@ aFourtyThree.addEventListener("click", function() {
   document.getElementById("box20").style.visibility = "hidden";
 });
 
-aFourtyFour.addEventListener("click", function() {
+aFourtyFour.addEventListener("click", function () {
   points += 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -560,7 +560,7 @@ aFourtyFour.addEventListener("click", function() {
   document.getElementById("box20").style.visibility = "hidden";
 });
 
-aFourtyFive.addEventListener("click", function() {
+aFourtyFive.addEventListener("click", function () {
   points -= 300;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -571,7 +571,7 @@ aFourtyFive.addEventListener("click", function() {
   document.getElementById("box20").style.visibility = "hidden";
 });
 
-aFourtySix.addEventListener("click", function() {
+aFourtySix.addEventListener("click", function () {
   points += 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -582,7 +582,7 @@ aFourtySix.addEventListener("click", function() {
   document.getElementById("box21").style.visibility = "hidden";
 });
 
-aFourtySeven.addEventListener("click", function() {
+aFourtySeven.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -593,7 +593,7 @@ aFourtySeven.addEventListener("click", function() {
   document.getElementById("box21").style.visibility = "hidden";
 });
 
-aFourtyEight.addEventListener("click", function() {
+aFourtyEight.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -604,7 +604,7 @@ aFourtyEight.addEventListener("click", function() {
   document.getElementById("box21").style.visibility = "hidden";
 });
 
-aFourtyNine.addEventListener("click", function() {
+aFourtyNine.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -615,7 +615,7 @@ aFourtyNine.addEventListener("click", function() {
   document.getElementById("box22").style.visibility = "hidden";
 });
 
-aFifthy.addEventListener("click", function() {
+aFifthy.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -626,7 +626,7 @@ aFifthy.addEventListener("click", function() {
   document.getElementById("box22").style.visibility = "hidden";
 });
 
-aFifthyOne.addEventListener("click", function() {
+aFifthyOne.addEventListener("click", function () {
   points += 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -637,7 +637,7 @@ aFifthyOne.addEventListener("click", function() {
   document.getElementById("box22").style.visibility = "hidden";
 });
 
-aFifthyTwo.addEventListener("click", function() {
+aFifthyTwo.addEventListener("click", function () {
   points += 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -648,7 +648,7 @@ aFifthyTwo.addEventListener("click", function() {
   document.getElementById("box23").style.visibility = "hidden";
 });
 
-aFifthyThree.addEventListener("click", function() {
+aFifthyThree.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -659,7 +659,7 @@ aFifthyThree.addEventListener("click", function() {
   document.getElementById("box23").style.visibility = "hidden";
 });
 
-aFifthyFour.addEventListener("click", function() {
+aFifthyFour.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -670,7 +670,7 @@ aFifthyFour.addEventListener("click", function() {
   document.getElementById("box23").style.visibility = "hidden";
 });
 
-aFifthyFive.addEventListener("click", function() {
+aFifthyFive.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -681,7 +681,7 @@ aFifthyFive.addEventListener("click", function() {
   document.getElementById("box24").style.visibility = "hidden";
 });
 
-aFifthySix.addEventListener("click", function() {
+aFifthySix.addEventListener("click", function () {
   points += 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -692,7 +692,7 @@ aFifthySix.addEventListener("click", function() {
   document.getElementById("box24").style.visibility = "hidden";
 });
 
-aFifthySeven.addEventListener("click", function() {
+aFifthySeven.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -703,7 +703,7 @@ aFifthySeven.addEventListener("click", function() {
   document.getElementById("box24").style.visibility = "hidden";
 });
 
-aFifthyEight.addEventListener("click", function() {
+aFifthyEight.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -714,7 +714,7 @@ aFifthyEight.addEventListener("click", function() {
   document.getElementById("box25").style.visibility = "hidden";
 });
 
-aFifthyNine.addEventListener("click", function() {
+aFifthyNine.addEventListener("click", function () {
   points -= 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -725,7 +725,7 @@ aFifthyNine.addEventListener("click", function() {
   document.getElementById("box25").style.visibility = "hidden";
 });
 
-aSixty.addEventListener("click", function() {
+aSixty.addEventListener("click", function () {
   points += 400;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -736,7 +736,7 @@ aSixty.addEventListener("click", function() {
   document.getElementById("box25").style.visibility = "hidden";
 });
 
-aSixtyOne.addEventListener("click", function() {
+aSixtyOne.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -747,7 +747,7 @@ aSixtyOne.addEventListener("click", function() {
   document.getElementById("box26").style.visibility = "hidden";
 });
 
-aSixtyTwo.addEventListener("click", function() {
+aSixtyTwo.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -758,7 +758,7 @@ aSixtyTwo.addEventListener("click", function() {
   document.getElementById("box26").style.visibility = "hidden";
 });
 
-aSixtyThree.addEventListener("click", function() {
+aSixtyThree.addEventListener("click", function () {
   points += 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -769,7 +769,7 @@ aSixtyThree.addEventListener("click", function() {
   document.getElementById("box26").style.visibility = "hidden";
 });
 
-aSixtyFour.addEventListener("click", function() {
+aSixtyFour.addEventListener("click", function () {
   points += 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -780,7 +780,7 @@ aSixtyFour.addEventListener("click", function() {
   document.getElementById("box27").style.visibility = "hidden";
 });
 
-aSixtyFive.addEventListener("click", function() {
+aSixtyFive.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -791,7 +791,7 @@ aSixtyFive.addEventListener("click", function() {
   document.getElementById("box27").style.visibility = "hidden";
 });
 
-aSixtySix.addEventListener("click", function() {
+aSixtySix.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -802,7 +802,7 @@ aSixtySix.addEventListener("click", function() {
   document.getElementById("box27").style.visibility = "hidden";
 });
 
-aSixtySeven.addEventListener("click", function() {
+aSixtySeven.addEventListener("click", function () {
   points += 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -813,7 +813,7 @@ aSixtySeven.addEventListener("click", function() {
   document.getElementById("box28").style.visibility = "hidden";
 });
 
-aSixtyEight.addEventListener("click", function() {
+aSixtyEight.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -824,7 +824,7 @@ aSixtyEight.addEventListener("click", function() {
   document.getElementById("box28").style.visibility = "hidden";
 });
 
-aSixtyNine.addEventListener("click", function() {
+aSixtyNine.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -835,7 +835,7 @@ aSixtyNine.addEventListener("click", function() {
   document.getElementById("box28").style.visibility = "hidden";
 });
 
-aSeventy.addEventListener("click", function() {
+aSeventy.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -846,7 +846,7 @@ aSeventy.addEventListener("click", function() {
   document.getElementById("box29").style.visibility = "hidden";
 });
 
-aSeventyOne.addEventListener("click", function() {
+aSeventyOne.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -857,7 +857,7 @@ aSeventyOne.addEventListener("click", function() {
   document.getElementById("box29").style.visibility = "hidden";
 });
 
-aSeventyTwo.addEventListener("click", function() {
+aSeventyTwo.addEventListener("click", function () {
   points += 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -868,7 +868,7 @@ aSeventyTwo.addEventListener("click", function() {
   document.getElementById("box29").style.visibility = "hidden";
 });
 
-aSeventyThree.addEventListener("click", function() {
+aSeventyThree.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -879,7 +879,7 @@ aSeventyThree.addEventListener("click", function() {
   document.getElementById("box30").style.visibility = "hidden";
 });
 
-aSeventyFour.addEventListener("click", function() {
+aSeventyFour.addEventListener("click", function () {
   points -= 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
@@ -890,7 +890,7 @@ aSeventyFour.addEventListener("click", function() {
   document.getElementById("box30").style.visibility = "hidden";
 });
 
-aSeventyFive.addEventListener("click", function() {
+aSeventyFive.addEventListener("click", function () {
   points += 500;
   if (points >= 2500) {
     swal("Good Job!!!", "You Won!", "success");
