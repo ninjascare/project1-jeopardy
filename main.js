@@ -900,4 +900,3 @@ aSeventyFive.addEventListener("click", function() {
   scoreBoard.innerHTML = points;
   document.getElementById("box30").style.visibility = "hidden";
 });
-
